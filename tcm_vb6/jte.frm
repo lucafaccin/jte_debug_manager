@@ -247,6 +247,7 @@ Begin VB.Form tercm
       _ExtentY        =   12091
       _Version        =   393217
       BackColor       =   16777215
+      Enabled         =   -1  'True
       ScrollBars      =   2
       TextRTF         =   $"jte.frx":014A
       BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
@@ -2732,17 +2733,28 @@ Private Sub apri_seriale()
     
         'Modifiche effettuate per poter gestire l'interfaccia BT seriale
     If chkBT.Value = 1 Then
-        If chkTTL.Value = 0 Then
-            invia_comando ("AS+STYPE=T" + vbCrLf)
+        
+        'Apre la porta seriale
+        invia_comando ("AT+BYPASS=0" + vbCrLf)
+        attendi_risposta ("+BYPASS=0" + vbCrLf)
+        
+        'Alza il pin di reset per essere sicuro che non resetti la scheda. Si arrangia il convertitore a decidere se il pin è effettivamente
+        'a livello logico 1 o 0 in base al fatto che la porta sia una RS232 o una TTL
+        invia_comando ("AT+RESET=1" + vbCrLf)
+        attendi_risposta ("+RESET=1" + vbCrLf)
+        
+        
+        If chkTTL.Value = 1 Then
+            invia_comando ("AT+STYPE=T" + vbCrLf)
             attendi_risposta ("+STYPE=T" + vbCrLf)
         Else
-            invia_comando ("AS+STYPE=R" + vbCrLf)
+            invia_comando ("AT+STYPE=R" + vbCrLf)
             attendi_risposta ("+STYPE=R" + vbCrLf)
         End If
         
         'setta il baud rate
-        invia_comando ("AT+BRATE=115200" + vbCrLf)
-        attendi_risposta ("+BRATE=115200" + vbCrLf)
+        invia_comando ("AT+BRATE=19200" + vbCrLf)
+        attendi_risposta ("+BRATE=19200" + vbCrLf)
         'setta i data bits
         invia_comando ("AT+DBITS=8" + vbCrLf)
         attendi_risposta ("+DBITS=8" + vbCrLf)
@@ -2750,13 +2762,8 @@ Private Sub apri_seriale()
         invia_comando ("AT+SBITS=1" + vbCrLf)
         attendi_risposta ("+SBITS=1" + vbCrLf)
         'setta la parità
-        invia_comando ("AT+PARITY=E" + vbCrLf)
-        attendi_risposta ("+PARITY=E" + vbCrLf)
-        
-        'Alza il pin di reset per essere sicuro che non resetti la scheda. Si arrangia il convertitore a decidere se il pin è effettivamente
-        'a livello logico 1 o 0 in base al fatto che la porta sia una RS232 o una TTL
-        invia_comando ("AT+BOOT=1" + vbCrLf)
-        attendi_risposta ("+BOOT=1" + vbCrLf)
+        invia_comando ("AT+PARITY=N" + vbCrLf)
+        attendi_risposta ("+PARITY=N" + vbCrLf)
         
         'Apre la porta seriale
         invia_comando ("AT+BYPASS=1" + vbCrLf)
