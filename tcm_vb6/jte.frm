@@ -28,7 +28,7 @@ Begin VB.Form tercm
       Caption         =   "BT COM"
       Height          =   270
       Left            =   8880
-      TabIndex        =   50
+      TabIndex        =   46
       Top             =   1200
       Width           =   1815
    End
@@ -41,7 +41,7 @@ Begin VB.Form tercm
       Caption         =   "DITER COMMANDS"
       Height          =   1092
       Left            =   8760
-      TabIndex        =   47
+      TabIndex        =   43
       Top             =   6000
       Visible         =   0   'False
       Width           =   2652
@@ -59,7 +59,7 @@ Begin VB.Form tercm
          Height          =   612
          Index           =   3
          Left            =   120
-         TabIndex        =   49
+         TabIndex        =   45
          Top             =   360
          Width           =   1092
       End
@@ -77,7 +77,7 @@ Begin VB.Form tercm
          Height          =   612
          Index           =   2
          Left            =   1440
-         TabIndex        =   48
+         TabIndex        =   44
          Top             =   360
          Width           =   1092
       End
@@ -95,7 +95,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   972
       Left            =   10200
-      TabIndex        =   46
+      TabIndex        =   42
       Top             =   2280
       Width           =   1212
    End
@@ -112,7 +112,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   492
       Left            =   14400
-      TabIndex        =   45
+      TabIndex        =   41
       Top             =   0
       Width           =   2412
    End
@@ -129,7 +129,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   612
       Left            =   10920
-      TabIndex        =   44
+      TabIndex        =   40
       Top             =   600
       Width           =   492
    End
@@ -147,7 +147,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   972
       Left            =   8760
-      TabIndex        =   43
+      TabIndex        =   39
       Top             =   9000
       Visible         =   0   'False
       Width           =   2652
@@ -165,7 +165,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   492
       Left            =   11760
-      TabIndex        =   42
+      TabIndex        =   38
       Top             =   0
       Width           =   2412
    End
@@ -181,7 +181,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   492
       Left            =   14760
-      TabIndex        =   41
+      TabIndex        =   37
       Text            =   "Text1"
       Top             =   6840
       Visible         =   0   'False
@@ -199,7 +199,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   492
       Left            =   15480
-      TabIndex        =   40
+      TabIndex        =   36
       Text            =   "Text1"
       Top             =   6360
       Visible         =   0   'False
@@ -217,7 +217,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   492
       Left            =   11640
-      TabIndex        =   39
+      TabIndex        =   35
       Text            =   "Text1"
       Top             =   7680
       Visible         =   0   'False
@@ -226,21 +226,21 @@ Begin VB.Form tercm
    Begin VB.TextBox totale_righe 
       Height          =   396
       Left            =   13800
-      TabIndex        =   38
+      TabIndex        =   34
       Top             =   8880
       Width           =   2892
    End
    Begin VB.TextBox totale_byte 
       Height          =   396
       Left            =   13800
-      TabIndex        =   37
+      TabIndex        =   33
       Top             =   8280
       Width           =   2892
    End
    Begin RichTextLib.RichTextBox text_report 
       Height          =   6855
       Left            =   1320
-      TabIndex        =   34
+      TabIndex        =   30
       Top             =   840
       Width           =   6375
       _ExtentX        =   11245
@@ -270,7 +270,7 @@ Begin VB.Form tercm
       Caption         =   "UPDATE FIRMWARE"
       Height          =   2532
       Left            =   8760
-      TabIndex        =   26
+      TabIndex        =   22
       Top             =   3360
       Width           =   2652
       Begin VB.CommandButton tasto_recall_report 
@@ -286,7 +286,7 @@ Begin VB.Form tercm
          EndProperty
          Height          =   372
          Left            =   120
-         TabIndex        =   33
+         TabIndex        =   29
          Top             =   2040
          Width           =   2412
       End
@@ -295,7 +295,7 @@ Begin VB.Form tercm
          ItemData        =   "jte.frx":01D1
          Left            =   120
          List            =   "jte.frx":01DB
-         TabIndex        =   32
+         TabIndex        =   28
          Text            =   "sel.device"
          Top             =   840
          Width           =   2412
@@ -313,7 +313,7 @@ Begin VB.Form tercm
          EndProperty
          Height          =   612
          Left            =   120
-         TabIndex        =   27
+         TabIndex        =   23
          Top             =   1320
          Width           =   2412
       End
@@ -323,7 +323,7 @@ Begin VB.Form tercm
          Caption         =   "SELECT FILE"
          Height          =   372
          Left            =   120
-         TabIndex        =   29
+         TabIndex        =   25
          Top             =   360
          Width           =   2412
       End
@@ -344,7 +344,7 @@ Begin VB.Form tercm
       Left            =   240
       Locked          =   -1  'True
       MultiLine       =   -1  'True
-      TabIndex        =   25
+      TabIndex        =   21
       Text            =   "jte.frx":01F9
       Top             =   0
       Visible         =   0   'False
@@ -363,7 +363,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   372
       Left            =   13080
-      TabIndex        =   24
+      TabIndex        =   20
       Top             =   6600
       Visible         =   0   'False
       Width           =   372
@@ -377,7 +377,7 @@ Begin VB.Form tercm
       Caption         =   "DATA TYPE"
       Height          =   1692
       Left            =   8760
-      TabIndex        =   23
+      TabIndex        =   19
       Top             =   7200
       Visible         =   0   'False
       Width           =   2652
@@ -396,7 +396,7 @@ Begin VB.Form tercm
          ItemData        =   "jte.frx":0217
          Left            =   120
          List            =   "jte.frx":0219
-         TabIndex        =   30
+         TabIndex        =   26
          Text            =   "tabelle"
          Top             =   360
          Visible         =   0   'False
@@ -415,7 +415,7 @@ Begin VB.Form tercm
          EndProperty
          Height          =   612
          Left            =   120
-         TabIndex        =   28
+         TabIndex        =   24
          Top             =   960
          Width           =   2412
       End
@@ -434,7 +434,7 @@ Begin VB.Form tercm
       Left            =   11640
       MultiLine       =   -1  'True
       ScrollBars      =   2  'Vertical
-      TabIndex        =   22
+      TabIndex        =   18
       Top             =   600
       Width           =   6132
    End
@@ -445,86 +445,23 @@ Begin VB.Form tercm
       TabIndex        =   11
       Top             =   480
       Width           =   2052
+      Begin VB.ComboBox cbmComPort 
+         Height          =   390
+         ItemData        =   "jte.frx":021B
+         Left            =   120
+         List            =   "jte.frx":025B
+         TabIndex        =   48
+         Top             =   240
+         Width           =   1815
+      End
       Begin VB.CheckBox chkTTL 
          Caption         =   "TTL"
          Enabled         =   0   'False
          Height          =   375
          Left            =   120
-         TabIndex        =   51
+         TabIndex        =   47
          Top             =   1080
          Width           =   1815
-      End
-      Begin VB.OptionButton Option2 
-         Caption         =   "4"
-         BeginProperty Font 
-            Name            =   "MS Sans Serif"
-            Size            =   8.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   255
-         Index           =   3
-         Left            =   1440
-         TabIndex        =   15
-         Top             =   360
-         Width           =   372
-      End
-      Begin VB.OptionButton Option2 
-         Caption         =   "3"
-         BeginProperty Font 
-            Name            =   "MS Sans Serif"
-            Size            =   8.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   255
-         Index           =   2
-         Left            =   1080
-         TabIndex        =   14
-         Top             =   360
-         Width           =   372
-      End
-      Begin VB.OptionButton Option2 
-         Caption         =   "2"
-         BeginProperty Font 
-            Name            =   "MS Sans Serif"
-            Size            =   8.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   255
-         Index           =   1
-         Left            =   600
-         TabIndex        =   13
-         Top             =   360
-         Width           =   372
-      End
-      Begin VB.OptionButton Option2 
-         Caption         =   "1"
-         BeginProperty Font 
-            Name            =   "MS Sans Serif"
-            Size            =   8.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   255
-         Index           =   0
-         Left            =   120
-         TabIndex        =   12
-         Top             =   360
-         Width           =   375
       End
    End
    Begin VB.Frame frame_punti 
@@ -549,7 +486,7 @@ Begin VB.Form tercm
          Height          =   255
          Index           =   9
          Left            =   2040
-         TabIndex        =   20
+         TabIndex        =   16
          Top             =   720
          Width           =   440
       End
@@ -567,7 +504,7 @@ Begin VB.Form tercm
          Height          =   255
          Index           =   8
          Left            =   1560
-         TabIndex        =   19
+         TabIndex        =   15
          Top             =   720
          Width           =   440
       End
@@ -585,7 +522,7 @@ Begin VB.Form tercm
          Height          =   255
          Index           =   7
          Left            =   1080
-         TabIndex        =   18
+         TabIndex        =   14
          Top             =   720
          Width           =   440
       End
@@ -603,7 +540,7 @@ Begin VB.Form tercm
          Height          =   255
          Index           =   6
          Left            =   600
-         TabIndex        =   17
+         TabIndex        =   13
          Top             =   720
          Width           =   440
       End
@@ -621,7 +558,7 @@ Begin VB.Form tercm
          Height          =   255
          Index           =   5
          Left            =   120
-         TabIndex        =   16
+         TabIndex        =   12
          Top             =   720
          Width           =   440
       End
@@ -737,7 +674,7 @@ Begin VB.Form tercm
          Height          =   612
          Index           =   1
          Left            =   1440
-         TabIndex        =   21
+         TabIndex        =   17
          Top             =   360
          Width           =   1092
       End
@@ -833,7 +770,7 @@ Begin VB.Form tercm
       Height          =   255
       Index           =   1
       Left            =   11760
-      TabIndex        =   36
+      TabIndex        =   32
       Top             =   9000
       Width           =   1935
    End
@@ -842,7 +779,7 @@ Begin VB.Form tercm
       Height          =   255
       Index           =   0
       Left            =   11760
-      TabIndex        =   35
+      TabIndex        =   31
       Top             =   8400
       Width           =   1935
    End
@@ -860,7 +797,7 @@ Begin VB.Form tercm
       EndProperty
       Height          =   375
       Left            =   8760
-      TabIndex        =   31
+      TabIndex        =   27
       Top             =   0
       Visible         =   0   'False
       Width           =   2655
@@ -1065,6 +1002,15 @@ fine_comandi_diter:
 End Sub
       
       
+Private Sub cbmComPort_Change()
+    portacom = cbmComPort.ListIndex + 1
+End Sub
+
+Private Sub cbmComPort_Click()
+    portacom = cbmComPort.ListIndex + 1
+
+End Sub
+
 Private Sub chkBT_Click()
     If chkBT.Value Then
         chkTTL.Enabled = True
@@ -1327,7 +1273,7 @@ End Sub
 
 Private Sub comando_reset_Click(Index As Integer)
   If Index = 0 Then
-    If chkBT.Value = True Then
+    If chkBT.Value = 1 Then
         invia_comando ("AT+STM32_RST_SEQUENCE=1" + vbCrLf)
         attendi_risposta ("+STM32_RST_SEQUENCE=1" + vbCrLf)
     Else
@@ -1410,17 +1356,7 @@ li:
   
   Input #1, riga
   If riga <> "" Then
-    If riga = "1" Then
-      portacom = 1
-    ElseIf riga = "2" Then
-      portacom = 2
-    ElseIf riga = "3" Then
-      portacom = 3
-    ElseIf riga = "4" Then
-      portacom = 4
-    Else
-      portacom = 1
-    End If
+    portacom = CInt(riga)
   Else:
     portacom = 1
   End If
@@ -1475,6 +1411,10 @@ li:
   End If
   
   'tercm.StartUpPosition = 2
+  Input #1, riga
+  chkBT.Value = CInt(riga)
+  Input #1, riga
+  chkTTL.Value = CInt(riga)
   
   Close #1
   GoTo li2
@@ -1484,7 +1424,8 @@ qui2:
 
 li2:
   
-  Option2(portacom - 1).Value = True
+  cbmComPort.ListIndex = portacom - 1
+  'Option2(portacom - 1).Value = True
 
 End Sub
 
@@ -1687,17 +1628,12 @@ Private Sub tasto_exit_Click()
   Close
   
   Open App.Path + "\config.txt" For Output As #1
-  If portacom = 1 Then
-    Print #1, "1"
-  ElseIf portacom = 2 Then
-    Print #1, "2"
-  ElseIf portacom = 3 Then
-    Print #1, "3"
-  ElseIf portacom = 4 Then
-    Print #1, "4"
-  Else
-    Print #1, "1"
-  End If
+    If (portacom >= 1 And portacom <= 20) Then
+        Print #1, Str(portacom)
+    Else
+        Print #1, "1"
+    End If
+    
   
   If combo_device.ListIndex = -1 Then
     If combo_device.Text <> "" Then
@@ -1717,6 +1653,11 @@ Private Sub tasto_exit_Click()
   Else
     Print #1, "0"
   End If
+  
+  'Bluetooth e TTL
+  Print #1, Str(chkBT.Value)
+  Print #1, Str(chkTTL.Value)
+  
   
   
   Close #1
@@ -2721,32 +2662,7 @@ Private Sub apri_seriale_per_isp()
     uart.CommPort = portacom
     uart.Settings = "115200,e,8,1"
     
-    'Modifiche effettuate per poter gestire l'interfaccia BT seriale
-    If chkBT.Value = 1 Then
-        If chkTTL.Value = 1 Then
-            invia_comando ("AS+STYPE=T" + vbCrLf)
-            attendi_risposta ("+STYPE=T" + vbCrLf)
-        Else
-            invia_comando ("AS+STYPE=R" + vbCrLf)
-            attendi_risposta ("+STYPE=R" + vbCrLf)
-        End If
-        
-        'setta il baud rate
-        invia_comando ("AT+BRATE=115200" + vbCrLf)
-        attendi_risposta ("+BRATE=115200" + vbCrLf)
-        'setta i data bits
-        invia_comando ("AT+DBITS=8" + vbCrLf)
-        attendi_risposta ("+DBITS=8" + vbCrLf)
-        'setta gli stop bits
-        invia_comando ("AT+SBITS=1" + vbCrLf)
-        attendi_risposta ("+SBITS=1" + vbCrLf)
-        'setta la parità
-        invia_comando ("AT+PARITY=E" + vbCrLf)
-        attendi_risposta ("+PARITY=E" + vbCrLf)
-        
-    Else
-        uart.DTREnable = False
-    End If
+    uart.DTREnable = False
     
     
     
@@ -2763,6 +2679,31 @@ Private Sub apri_seriale_per_isp()
     uart.RThreshold = 100
     uart.SThreshold = 100
     uart.PortOpen = True
+  
+    'Modifiche effettuate per poter gestire l'interfaccia BT seriale
+    If chkBT.Value = 1 Then
+        If chkTTL.Value = 1 Then
+            invia_comando ("AT+STYPE=T" + vbCrLf)
+            attendi_risposta ("+STYPE=T" + vbCrLf)
+        Else
+            invia_comando ("AT+STYPE=R" + vbCrLf)
+            attendi_risposta ("+STYPE=R" + vbCrLf)
+        End If
+        
+        'setta il baud rate
+        invia_comando ("AT+BRATE=115200" + vbCrLf)
+        attendi_risposta ("+BRATE=115200" + vbCrLf)
+        'setta i data bits
+        invia_comando ("AT+DBITS=8" + vbCrLf)
+        attendi_risposta ("+DBITS=8" + vbCrLf)
+        'setta gli stop bits
+        invia_comando ("AT+SBITS=1" + vbCrLf)
+        attendi_risposta ("+SBITS=1" + vbCrLf)
+        'setta la parità
+        invia_comando ("AT+PARITY=E" + vbCrLf)
+        attendi_risposta ("+PARITY=E" + vbCrLf)
+    End If
+  
   End If
 End Sub
 
@@ -2773,9 +2714,25 @@ Private Sub apri_seriale()
     uart.Settings = "19200,n,8,1"
     uart.DTREnable = False
     'If micro = "STM32F303VE" Then
-    'Modifiche effettuate per poter gestire l'interfaccia BT seriale
-    If chkBT.Value = truen Then
-        If checkTTL.Value = True Then
+
+    uart.DTREnable = False
+
+    'Else
+    '  uart.RTSEnable = False
+    'End If
+    uart.EOFEnable = False
+    uart.Handshaking = comNone
+    uart.InBufferSize = 1024
+    uart.InputMode = comInputModeText
+    uart.InputLen = 0
+    uart.RThreshold = 100
+    uart.SThreshold = 100
+    uart.PortOpen = True
+    
+    
+        'Modifiche effettuate per poter gestire l'interfaccia BT seriale
+    If chkBT.Value = 1 Then
+        If chkTTL.Value = 0 Then
             invia_comando ("AS+STYPE=T" + vbCrLf)
             attendi_risposta ("+STYPE=T" + vbCrLf)
         Else
@@ -2802,24 +2759,11 @@ Private Sub apri_seriale()
         attendi_risposta ("+BOOT=1" + vbCrLf)
         
         'Apre la porta seriale
-        invia_comand ("AT+BYPASS=1" + vbCrLf)
-        attendi_comando ("+BYPASS=1" + vbCrLf)
+        invia_comando ("AT+BYPASS=1" + vbCrLf)
+        attendi_risposta ("+BYPASS=1" + vbCrLf)
         
         
-    Else
-        uart.DTREnable = False
     End If
-    'Else
-    '  uart.RTSEnable = False
-    'End If
-    uart.EOFEnable = False
-    uart.Handshaking = comNone
-    uart.InBufferSize = 1024
-    uart.InputMode = comInputModeText
-    uart.InputLen = 0
-    uart.RThreshold = 100
-    uart.SThreshold = 100
-    uart.PortOpen = True
   End If
 End Sub
 
@@ -3256,7 +3200,7 @@ Private Sub resetta_micro()
 
 tasto_update.Caption = "ISP MODE"
 
-    If chkBT.Value = True Then
+    If chkBT.Value = 1 Then
         invia_comando ("AT+STM32_RST_SEQUENCE=1" + vbCrLf)
         attendi_risposta ("+STM32_RST_SEQUENCE=1" + vbCrLf)
         
@@ -3291,14 +3235,19 @@ Private Sub metti_il_micro_in_isp_mode()
   
   tasto_update.Caption = "ISP MODE"
   
-  If chkBT.Value = True Then
+  If chkBT.Value = 1 Then
     invia_comando ("AT+BYPASS=0" + vbCrLf)
     attendi_risposta ("+BYPASS=0" + vbCrLf)
-    invia_comand ("AT+STM32_BOOT_SEQUENCE=1" + vbCrLf)
-    attendi_riposta ("+STM32_BOOT_SEQUENCE=1" + vbCrLf)
+    invia_comando ("AT+STM32_BOOT_SEQUENCE=1" + vbCrLf)
+    attendi_risposta ("+STM32_BOOT_SEQUENCE=1" + vbCrLf)
     invia_comando ("AT+BYPASS=1" + vbCrLf)
     attendi_risposta ("+BYPASS=1" + vbCrLf)
-    
+    'attesa
+    centesimi = 0
+    While centesimi < 50
+        DoEvents
+    Wend
+  
   Else
   'metto il micro in ISP
   uart.RTSEnable = False
