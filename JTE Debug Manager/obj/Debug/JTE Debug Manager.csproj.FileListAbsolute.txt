@@ -1,0 +1,15 @@
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\bin\Debug\JTE Debug Manager.exe.config
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\bin\Debug\JTE Debug Manager.exe
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\bin\Debug\JTE Debug Manager.pdb
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\JTE Debug Manager.csprojAssemblyReference.cache
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\MainWindow.g.cs
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\App.g.cs
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\JTE Debug Manager_MarkupCompile.cache
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\JTE Debug Manager_MarkupCompile.lref
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\MainWindow.baml
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\JTE Debug Manager.g.resources
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\JTE_Debug_Manager.Properties.Resources.resources
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\JTE Debug Manager.csproj.GenerateResource.cache
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\JTE Debug Manager.csproj.CoreCompileInputs.cache
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\JTE Debug Manager.exe
+C:\Users\luca.faccin\Documents\Repos\jte_debug_manager\JTE Debug Manager\obj\Debug\JTE Debug Manager.pdb

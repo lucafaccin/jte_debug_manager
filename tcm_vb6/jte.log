@@ -1,0 +1,4 @@
+Line 232: Class RichTextLib.RichTextBox of control text_report was not a loaded control class.
+Line 254: Class MSComDlg.CommonDialog of control CommonDialog1 was not a loaded control class.
+Line 746: Class MSFlexGridLib.MSFlexGrid of control win was not a loaded control class.
+Line 804: Class MSCommLib.MSComm of control uart was not a loaded control class.
